@@ -22,9 +22,9 @@
 // }
 
 var canvas;
-let a;
-let b;
-let c;
+//let a;
+//let b;
+//let c;
 
 function setup() {
   // put drawing code here
