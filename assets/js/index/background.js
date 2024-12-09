@@ -22,9 +22,9 @@
 // }
 
 var canvas;
-//let a;
-//let b;
-//let c;
+let a;
+let b;
+let c;
 
 function setup() {
   // put drawing code here
@@ -41,7 +41,7 @@ function draw() {
   background(255, 30);
   noStroke();
   frameRate(10);
-  fill(0, 0, 0, 50);
+  fill(a, b, c, 50);
   ellipse(mouseX, mouseY, 50, 50);
 }
 
